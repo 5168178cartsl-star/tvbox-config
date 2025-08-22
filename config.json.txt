@@ -1,0 +1,36 @@
+{
+  "sites": [
+    {
+      "key": "feimao",
+      "name": "肥貓影視",
+      "type": 3,
+      "api": "https://gitcode.net/qq_32394351/tvbox/-/raw/master/fm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fth",
+      "name": "飯太硬",
+      "type": 3,
+      "api": "https://jihulab.com/饭太硬/接口/-/raw/main/FTY.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析1",
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "type": 0
+    },
+    {
+      "name": "解析2",
+      "url": "https://jx.xmflv.com/?url=",
+      "type": 0
+    }
+  ],
+  "lives": [],
+  "flags": ["youku", "iqiyi", "tencent"]
+}
